@@ -21,4 +21,4 @@ Made using Rasa.
 ## Cmd Interface
 
 
-![](Visuals/sample.png)
+![](Visuals/sample.PNG)
