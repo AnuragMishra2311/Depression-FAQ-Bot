@@ -1,0 +1,191 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - heya
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - nice to meet you
+    - see you soon
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - hmm
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no it's not like that
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - not feeling well 
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: bot_q
+  examples: |
+    - what is your name ?
+    - tell me your name ?
+    - who are you ?
+    - I can all you as ? 
+
+- intent: what_is_depression
+  examples: |
+    - what is depression ? 
+    - define depression
+    - tell me about depression
+    - what exactly is depression ?
+
+- intent: symptoms_of_depression
+  examples: |
+    - what are symptoms_of_depression ? 
+    - how to identify that i am depressed ?
+    - what are common symptoms of depression ?
+    - early symptoms of depression.
+    - some symptoms of depression.
+
+- intent: type_of_depression
+  examples: |
+    - what are types of depression ? 
+    - types of depression
+    - different types of depression.
+    - How many types of depression is there?
+    - do we have type in depression ?
+    - common types of depresion.
+    - different types
+    - different kinds of depression 
+
+- intent: treatment_for_depression
+  examples: |
+    - how is depression treated ? 
+    - treatment for depression.
+    - can depression be treated ? 
+    - how to treat depression ?
+    - treatment for depresion.
+    - treatment includes ?
+    - is it possible to get over it ?
+    - can it be treated ?
+    - treatment mathods.
+
+
+- intent: women_are_more_prone
+  examples: |
+    - depression in women. 
+    - are women more likely to get depressed? 
+    - depression in men vs women. 
+    - Why are women more likely to get depression?
+    - is depression more common in women than in men ?
+    - why women are more prone to depression than man ?
+    - why women are more prone to depression. 
+    - depression in men vs women.  
+  
+- intent: repetition
+  examples: |
+    - Will someone who has had depression get it again?
+    - will my depression repeat ? 
+    - will i again suffer from depression ? 
+    - can depression come agian ?
+    - can depression be repeated ? 
+    - will i have it again ?
+    - chances of reoccuring of depression ?
+    - will i suffer from it again ?
+
+
+- intent: adults
+  examples: |
+    - depression in adults.
+    - what are chances of depression in adults. 
+    - can aged people be depressed ?
+    - depression in old age. 
+    - depression in old people.
+  
+
+- intent: test
+  examples: |
+    - Am i depressed ?
+    - am i suffering from depression ?
+
+
+- intent: causes
+  examples: |
+    - what causes depression ?
+    - causes of depression ?
+    - why depression happens ?
+    - resons for depression
+    - why am i depressed ? 
+    - common causes of depression.
