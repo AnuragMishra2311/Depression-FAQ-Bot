@@ -16,4 +16,9 @@ Made using Rasa.
 
 1.  Change Directory to root 
 6.  Run the bot using command 
-    >   rasa shell
+    >   rasa shell 
+
+## Cmd Interface
+
+
+![](Visuals/sample.png)
